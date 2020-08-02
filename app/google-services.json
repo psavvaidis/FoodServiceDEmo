@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "296207041770",
+    "firebase_url": "https://foodservicedemo.firebaseio.com",
+    "project_id": "foodservicedemo",
+    "storage_bucket": "foodservicedemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296207041770:android:d370873caa350e71b4c393",
+        "android_client_info": {
+          "package_name": "com.example.foodservicedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296207041770-3v6buidsbuuqeebhljjno0f4mte64adj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuhnwSmN6jvBgmMHwXfEM9c7kxUlDwsIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296207041770-3v6buidsbuuqeebhljjno0f4mte64adj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
