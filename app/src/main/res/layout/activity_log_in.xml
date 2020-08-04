@@ -29,18 +29,6 @@
             />
 
         <EditText
-            android:id="@+id/edtName"
-            android:hint="Name"
-            android:textColorHint="@android:color/white"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="John Doe"
-            android:textColor="@android:color/white"
-            android:textSize="34sp"
-            android:inputType="textPersonName"
-            />
-
-        <EditText
             android:id="@+id/edtPassword"
             android:hint="Password"
             android:textColorHint="@android:color/white"
