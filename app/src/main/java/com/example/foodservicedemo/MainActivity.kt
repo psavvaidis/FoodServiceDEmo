@@ -1,5 +1,6 @@
 package com.example.foodservicedemo
 
+import android.content.Intent
 import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,7 +16,11 @@ class MainActivity : AppCompatActivity() {
         val face : Typeface = Typeface.createFromAsset(assets, "fonts/NABILA.TTF")
         txtSlogan.typeface = face
 
-        btn_sign_up.setOnClickListener {  }
-        btn_log_in.setOnClickListener {  }
+        btn_sign_up.setOnClickListener {
+        }
+        btn_log_in.setOnClickListener {
+            intent = Intent(this, LogInActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
