@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         txtSlogan.typeface = face
 
         btn_sign_up.setOnClickListener {
+            intent = Intent(this, SignUpActivity::class.java)
+            startActivity(intent)
         }
         btn_log_in.setOnClickListener {
             intent = Intent(this, LogInActivity::class.java)
