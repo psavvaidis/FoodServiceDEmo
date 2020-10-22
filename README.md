@@ -1,3 +1,0 @@
-# FoodServiceDEmo
-
-bla bla
